@@ -171,9 +171,9 @@ export default function About() {
         <MapPin className="w-12 h-12 mx-auto mb-4 text-amber-400" />
         <h3 className="text-xl font-bold mb-3 text-white">Visit Us</h3>
         <p className="text-gray-300 leading-relaxed">
-          123 Tea Garden Road<br />
-          Nuwara Eliya<br />
-          Sri Lanka 22200
+        02, Yaya 06, Nawa Nagaraya,<br />
+        Madhirigiriya,<br />
+          Sri Lanka
         </p>
       </div>
 
@@ -181,7 +181,7 @@ export default function About() {
         <Phone className="w-12 h-12 mx-auto mb-4 text-amber-400" />
         <h3 className="text-xl font-bold mb-3 text-white">Call Us</h3>
         <p className="text-gray-300 leading-relaxed">
-          +94 761486871<br />
+          +94 783592888<br />
           +94 778901234<br />
        
         </p>
