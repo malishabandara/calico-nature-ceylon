@@ -182,7 +182,7 @@ export default function About() {
         <h3 className="text-xl font-bold mb-3 text-white">Call Us</h3>
         <p className="text-gray-300 leading-relaxed">
           +94 783592888<br />
-          +94 778901234<br />
+          +94 703862650<br />
        
         </p>
       </div>
