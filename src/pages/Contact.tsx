@@ -39,7 +39,7 @@ export default function Contact() {
     >
       <div className="bg-black/60 min-h-screen">
 
-        <div className="py-20 text-white">
+        <div className="py-32 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 font-serif">Contact Us</h1>
             <p className="text-xl text-gray-200 max-w-2xl mx-auto">
