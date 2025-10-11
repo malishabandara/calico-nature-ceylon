@@ -103,7 +103,7 @@ export default function Home({ onNavigate }: HomeProps) {
                     alt="Tea garden with workers"
                     className="rounded-2xl shadow-2xl w-full h-full object-cover"
                   />
-                  <div className="absolute -bottom-6 -left-6 bg-black/40 backdrop-blur-lg text-white p-6 rounded-xl shadow-2xl border border-white/10">
+                  <div className="absolute -bottom-6 -left-6 bg-black backdrop-blur-lg text-white p-6 rounded-xl shadow-2xl border border-white/10">
                     <p className="text-4xl font-bold">38+</p>
                     <p className="text-sm font-semibold text-gray-300">Years of Excellence</p>
                   </div>
