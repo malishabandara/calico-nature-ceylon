@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
                  <div className={`bg-white   rounded-full shadow-lg group-hover:scale-110 transition-transform mx-2`}>
-              <img src={logo} className='w-16 h-16 object-cover p-1'></img>
+              <img src={logo} alt="Calico Nature Ceylon logo" className='w-16 h-16 object-cover p-1'></img>
             </div>
               <h3 className="text-2xl font-bold font-serif">Calico Nature Ceylon</h3>
             </div>
