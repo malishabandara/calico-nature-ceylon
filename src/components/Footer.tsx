@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
             <div className="mt-4">
               <a
-                href="https://web.facebook.com/share/v/16MkGBa3FY/"
+                href="https://web.facebook.com/profile.php?id=61581810404310"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 text-green-300 hover:text-white transition-colors group"
