@@ -35,7 +35,7 @@ export default function Contact() {
   return (
     <div 
       className="min-h-screen bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: "./contact.jpeg" }}
+      style={{ backgroundImage: "url('/contact.jpeg')" }}
     >
       <div className="bg-black/60 min-h-screen">
 

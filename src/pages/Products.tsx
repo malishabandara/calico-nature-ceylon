@@ -11,7 +11,7 @@ export default function Products() {
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
       <div 
         className="relative py-32 bg-cover bg-center " 
-        style={{ backgroundImage: `url('https://res.cloudinary.com/dnfbik3if/image/upload/v1759749575/close-up-green-leaves-nature_vf7fpr.jpg')` }}
+        style={{ backgroundImage: "url('/products.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black/50"></div> 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10"> 
