@@ -41,8 +41,8 @@ export default function Footer() {
               <MapPin className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
               <p className="text-green-100 leading-relaxed">
               
-              02, Yaya 06, Nawa Nagaraya, Madhirigiriya<br />
-                Sri Lanka 
+              02, Yaya 06, Nawa Nagaraya,<br />
+              Madhirigiriya, Sri Lanka 
               </p>
             </div>
           </div>
