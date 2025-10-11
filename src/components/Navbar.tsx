@@ -55,7 +55,7 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
           >
             {/* ✨ Updated logo background to be consistently white for better contrast */}
             <div className={`bg-white   rounded-full shadow-lg group-hover:scale-110 transition-transform`}>
-              <img src={logo} className='w-16 h-16 object-cover p-1'></img>
+              <img src={logo} alt="Calico Nature Ceylon logo" className='w-16 h-16 object-cover p-1'></img>
             </div>
             <div>
               <h1 className={`text-2xl font-bold font-serif transition-colors duration-300 ${logoColor}`}>Calico Nature Ceylon</h1>
@@ -126,4 +126,3 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
     </nav>
   );
 }
-
