@@ -35,7 +35,7 @@ export default function Contact() {
   return (
     <div 
       className="min-h-screen bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: `url('https://res.cloudinary.com/dnfbik3if/image/upload/v1759750955/cool-coffee-india-tea-leaves-forest_xcbkwq.jpg')` }}
+      style={{ backgroundImage: "./contact.jpeg" }}
     >
       <div className="bg-black/60 min-h-screen">
 
