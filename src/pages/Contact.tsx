@@ -109,9 +109,9 @@ export default function Contact() {
                   
                   {/* CHANGE: Reduced spacing between info items from space-y-6 to space-y-4 */}
                   <div className="space-y-4">
-                    <InfoItem icon={<MapPin size={24} />} title="Our Address" lines={["123 Tea Garden Road", "Nuwara Eliya, Sri Lanka 22200"]} />
+                    <InfoItem icon={<MapPin size={24} />} title="Our Address" lines={["02, Yaya 06, Nawa Nagaraya", "Madhirigiriya, Sri Lanka"]} />
                     <InfoItem icon={<Phone size={24} />} title="Phone Numbers" lines={["+94 783592888", "+94 703862650"]} />
-                    <InfoItem icon={<Mail size={24} />} title="Email" lines={["caliconatureceylon.lk", "caliconatureceylon.lk"]} />
+                    <InfoItem icon={<Mail size={24} />} title="Email" lines={["www.caliconatureceylon.com"]} />
                     <InfoItem icon={<Clock size={24} />} title="Working Hours" lines={["Mon - Sat: 8 AM - 6 PM", "Sunday: Closed"]} />
                   </div>
                 </div>
