@@ -103,7 +103,7 @@ export default function Home({ onNavigate }: HomeProps) {
                     alt="Tea garden with workers"
                     className="rounded-2xl shadow-2xl w-full h-full object-cover"
                   />
-                  <div className="absolute -bottom-6 -left-6 bg-black/40 backdrop-blur-lg text-white p-6 rounded-xl shadow-2xl border border-white/10">
+                  <div className="absolute -bottom-6 -left-6 bg-black backdrop-blur-lg text-white p-6 rounded-xl shadow-2xl border border-white/10">
                     <p className="text-4xl font-bold">38+</p>
                     <p className="text-sm font-semibold text-gray-300">Years of Excellence</p>
                   </div>
@@ -139,9 +139,6 @@ export default function Home({ onNavigate }: HomeProps) {
                     alt={product.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 bg-green-600 text-white px-4 py-2 rounded-full font-semibold shadow-lg">
-                    ${product.price}
-                  </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-gray-800 mb-3">{product.name}</h3>

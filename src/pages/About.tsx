@@ -29,7 +29,7 @@ export default function About() {
   return (
     <div className="min-h-screen">
     <div 
-  className="relative py-20 bg-cover bg-bottom " 
+  className="relative py-32 bg-cover bg-bottom " 
   style={{ backgroundImage: `url('https://res.cloudinary.com/dnfbik3if/image/upload/v1759748406/Green_Modern_Tea_Estate_Travel_Tourism_Postcard_lsovdj.png')` }}
 >
   {/* Overlay for text readability */}
