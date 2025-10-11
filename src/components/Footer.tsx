@@ -30,7 +30,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                <p className="text-green-100">caliconatureceylon.lk</p>
+                <p className="text-green-100">caliconatureceylon.com</p>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Footer() {
               <MapPin className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
               <p className="text-green-100 leading-relaxed">
               
-                Nuwara Eliya,<br />
+              02, Yaya 06, Nawa Nagaraya, Madhirigiriya<br />
                 Sri Lanka 
               </p>
             </div>
@@ -55,7 +55,7 @@ export default function Footer() {
     
     {/* Copyright Notice */}
     <p className="text-green-300 text-sm text-center md:text-left">
-      © 2025 Calico Nature Ceylon. All rights reserved.
+      © 2025 NextGen Web Works | +94 78 723 9394
     </p>
     
     {/* Social Links or Policy Links */}
