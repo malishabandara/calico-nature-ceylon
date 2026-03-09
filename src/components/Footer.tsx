@@ -1,7 +1,11 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
 import logo from "../public/logo2.png";
 
-export default function Footer() {
+interface FooterProps {
+  onNavigate: (page: string) => void;
+}
+
+export default function Footer({ onNavigate }: FooterProps) {
   return (
     <footer className="bg-gradient-to-br from-green-900 to-green-800 text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -83,6 +87,12 @@ export default function Footer() {
     <div className="flex space-x-6 text-sm text-green-300">
       <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
       <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+      <button 
+        onClick={() => onNavigate('admin')} 
+        className="hover:text-white transition-colors"
+      >
+        Admin Login
+      </button>
     </div>
 
   </div>

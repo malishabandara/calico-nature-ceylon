@@ -1,11 +1,30 @@
 import { Clock, Leaf, ShoppingBag } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import OrderModal from '../components/OrderModal';
-import { products } from '../data/products';
+import { products as staticProducts } from '../data/products';
 import { Product } from '../types';
+import { getProducts } from '../lib/products';
 
 export default function Products() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [displayProducts, setDisplayProducts] = useState<Product[]>(staticProducts);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function loadProducts() {
+      try {
+        const fetchedProducts = await getProducts();
+        if (fetchedProducts && fetchedProducts.length > 0) {
+          setDisplayProducts(fetchedProducts);
+        }
+      } catch (error) {
+        console.error('Failed to fetch products from Supabase, using static data:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    loadProducts();
+  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
@@ -25,7 +44,7 @@ export default function Products() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* UPDATED: Added xl:grid-cols-3 for better layout on large screens */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-          {products.map((product) => (
+          {displayProducts.map((product) => (
             <div
               key={product.id}
               // UPDATED: Added border for a subtle hover effect
