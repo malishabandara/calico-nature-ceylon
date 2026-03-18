@@ -28,8 +28,8 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
     const message = `Hi! I would like to order:\n\n` +
       `Product: ${product.name}\n` +
       `Quantity: ${quantity}\n` +
-      `Price per unit: $${product.price}\n` +
-      `Total: $${total}\n\n` +
+      `Price per unit: LKR ${product.price}\n` +
+      `Total: LKR ${total}\n\n` +
       `Please confirm my order. Thank you!`;
 
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -75,7 +75,7 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
       {/* --- CHANGES END HERE (rest of the code is the same) --- */}
 
           <div className="flex items-center justify-between mb-6 pb-4 border-b">
-            <span className="text-3xl font-bold text-green-700">${product.price}</span>
+            <span className="text-3xl font-bold text-green-700">LKR {product.price}</span>
             <span className="text-sm text-gray-500">per unit</span>
           </div>
 
@@ -110,7 +110,7 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
             <div className="flex justify-between items-center">
               <span className="text-gray-700 font-semibold">Total Amount:</span>
               <span className="text-2xl font-bold text-green-700">
-                ${(product.price * quantity).toFixed(2)}
+                LKR {(product.price * quantity).toFixed(2)}
               </span>
             </div>
           </div>
