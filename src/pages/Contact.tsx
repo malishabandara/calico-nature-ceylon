@@ -10,7 +10,7 @@ export default function Contact() {
     message: ''
   });
 
-  const phoneNumber = "94725858799";
+  const phoneNumber = "94770368995";
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -110,7 +110,7 @@ export default function Contact() {
                   {/* CHANGE: Reduced spacing between info items from space-y-6 to space-y-4 */}
                   <div className="space-y-4">
                     <InfoItem icon={<MapPin size={24} />} title="Our Address" lines={["02, Yaya 06, Nawa Nagaraya", "Madhirigiriya, Sri Lanka"]} />
-                    <InfoItem icon={<Phone size={24} />} title="Phone Numbers" lines={["+94 783592888", "+94 703862650"]} />
+                    <InfoItem icon={<Phone size={24} />} title="Phone Numbers" lines={["+94 783592888", "+94 770368995"]} />
                     <InfoItem icon={<Mail size={24} />} title="Email" lines={["www.caliconatureceylon.com"]} />
                     <InfoItem icon={<Clock size={24} />} title="Working Hours" lines={["Mon - Sat: 8 AM - 6 PM", "Sunday: Closed"]} />
                   </div>
